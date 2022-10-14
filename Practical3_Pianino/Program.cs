@@ -14,6 +14,8 @@ int[] FiftOktava = new int[12] { 523, 554, 587, 622, 659, 698, 740, 784, 830, 88
 int[] Buffer = new int[12];
 bool NegrPashet = true;
 
+// -=-=-=-=-=-=-=- ТУТ САМА ПРОГРАММА -=-=-=-=-=-=-=-
+
 while (NegrPashet == true)
 {
     ConsoleKeyInfo klavisha = Console.ReadKey();
@@ -21,7 +23,7 @@ while (NegrPashet == true)
     ChooseOktava(klavisha, Buffer, ThirdOktava, FourthOktava, FiftOktava);
 }
 
-// -=-=-= тут методы =-=-=-
+// -=-=-=-=-=-=-=- ТУТ МЕТОДЫ -=-=-=-=-=-=-=-
 
 // СМЕНА ОКТАВЫ
 
